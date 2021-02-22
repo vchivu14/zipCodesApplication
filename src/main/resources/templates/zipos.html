@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Title</title>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Zipcode</th>
+        <th>City</th>
+    <tr th:each="zip : ${zipcities}">
+        <td th:text="${zip.getZipcode()}"></td>
+        <td th:text="${zip.getCity()}"></td>
+    </tr>
+</table>
+
+</body>
+</html>

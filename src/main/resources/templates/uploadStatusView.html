@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Title</title>
+</head>
+<body>
+
+    <div th:if="${msg}">
+        <span th:text="${msg}"></span>
+    </div>
+
+    <div>
+        <a href="/">Go back</a>
+    </div>
+    <div>
+        <a href="/zipcity">See results</a>
+    </div>
+
+</body>
+</html>
