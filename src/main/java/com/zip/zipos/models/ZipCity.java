@@ -3,17 +3,11 @@ package com.zip.zipos.models;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "zipcity")
 public class ZipCity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
     private long id;
-
-    @Column(name = "zipcode")
     private long zipcode;
-
-    @Column(name = "city")
     private String city;
 
     public ZipCity() {
