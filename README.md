@@ -4,6 +4,6 @@
 <h3> Run the app with:</h3>
 <h5> <code>java -jar target/zipos-0.0.1-SNAPSHOT.jar</code></h5>
 <h3> Go at:</h3>
-<h5>http://localhost:8080/</h5>
-<h5> upload the <b>zipcode.xlsx<b> file from inside the project/</h5>
+<h5>http://localhost:8080</h5>
+<h5> upload the <strong>zipcode.xlsx<strong> file from inside the project/</h5>
 <h3> Check the Results</h3>
